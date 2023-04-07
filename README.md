@@ -1,7 +1,9 @@
 # Loading multiple files using Python
 
 ## Overview
-Loading one single file using Pandas library in Python is pretty straigh forward. But what happens if you need to load several files and concatenate them into only one file for analysis? Python has a module called [glob](https://docs.python.org/3/library/glob.html#module-glob) that allows you to load multiple files located in the same directory, assigning them to a single object. Then it is possible to read and concatenate all files stored into this object into a pandas dataframe. The newly concatenated table created can have a new index to take into account all rows added excluding the original indexes from each table.
+Loading one single file using Pandas library in Python is pretty straigh forward. But what happens if you need to load several files and concatenate them into only one file for analysis? 
+
+Python has a module called [glob](https://docs.python.org/3/library/glob.html#module-glob) that allows you to load multiple files located in the same directory, assigning them to a single object. Then it is possible to read and concatenate all files stored into this object into a single pandas dataframe using a for loop command. The newly concatenated table can have a new index to take into account all rows added excluding the original indexes from each table.
 
 
 ## Data
