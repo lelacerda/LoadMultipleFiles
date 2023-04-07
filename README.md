@@ -11,4 +11,4 @@ I used historical weather data from [Canada Government website](https://climate.
 
 All files downloaded had the same file name structure e.g. 'en_climate_daily_NS_8202250_1960_P1D.csv'. As the only change in file name for these datasets is the year, it is possible to change the file name using 'en_climate_daily_NS_*.csv' when using the glob code.
 
-Click [here]() to see how do it.
+Click [here](https://github.com/lelacerda/LoadMultipleFiles/blob/main/Load_Multiple_Files.ipynb) to see how do it.
