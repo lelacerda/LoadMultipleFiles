@@ -7,7 +7,7 @@ Python has a module called [glob](https://docs.python.org/3/library/glob.html#mo
 
 
 ## Data
-I used historical weather data from [Canada Government website](https://climate.weather.gc.ca/historical_data/search_historic_data_e.html). I chose daily weather data from Halifax Stanfield Airport Station from 1961 to 2022.
+I used historical weather data from [Canada Government website](https://climate.weather.gc.ca/historical_data/search_historic_data_e.html). I chose daily weather data from Halifax Stanfield Airport Station from 1960 to 2023. Each file contained data for one year, so the total number of files loaded were 64.
 
 ## Procedure
 
